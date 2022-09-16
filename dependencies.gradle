@@ -1,0 +1,87 @@
+dependencies {
+
+    /*** Testing ***/
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    /*** Kotlin Language ***/
+    api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.0"
+    implementation 'androidx.core:core-ktx:1.8.0'
+
+    /*** Android Native ***/
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.fragment:fragment:1.5.2'
+    implementation 'androidx.fragment:fragment-ktx:1.5.2'
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.2.0'
+
+    /*** Fragment Navigation ***/
+    implementation 'androidx.navigation:navigation-fragment:2.5.1'
+    implementation 'androidx.navigation:navigation-ui:2.5.1'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.1'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.5.1'
+
+    /*** lifecycle ***/
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
+    implementation 'androidx.lifecycle:lifecycle-common-java8:2.5.1'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.5.1'
+
+    /*** Coroutines ***/
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.1"
+
+    /*** HTTP ***/
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-moshi:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.1'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.9.0'
+    implementation 'com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:0.8.0'
+
+
+    /*** Parsing ***/
+    implementation 'com.google.code.gson:gson:2.9.0'
+    implementation 'com.squareup.moshi:moshi-kotlin:1.11.0'
+
+
+    /*** Permissions ***/
+//    implementation 'com.markodevcic:peko:2.1.4'
+    implementation 'com.guolindev.permissionx:permissionx:1.6.4'
+
+    /*** Logging ***/
+    implementation 'com.jakewharton.timber:timber:5.0.1'
+
+    /*** Dagger Hilt ***/
+    implementation 'com.google.dagger:hilt-android:2.42'
+    kapt 'com.google.dagger:hilt-android-compiler:2.42'
+
+    /*** Chuck inteceptor ***/
+    debugImplementation "com.github.chuckerteam.chucker:library:3.5.2"
+    releaseImplementation "com.github.chuckerteam.chucker:library-no-op:3.5.2"
+
+    /*** Leakcanary ***/
+//    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.7'
+
+    /*** Dokka ***/
+    dokkaHtmlPlugin("org.jetbrains.dokka:kotlin-as-java-plugin:1.6.21")
+
+    /*** Paging ***/
+    implementation 'androidx.paging:paging-runtime:3.1.1'
+
+    /*** GLide ***/
+    implementation 'com.github.bumptech.glide:glide:4.13.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
+
+    /*** Picasso ***/
+    implementation 'com.squareup.picasso:picasso:2.8'
+
+
+    api project(':mediapicker')
+
+}

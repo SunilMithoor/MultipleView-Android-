@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MultipleView</string>
+
+    <!--    labels-->
+    <string name="question">Question</string>
+    <string name="question_label">Question Title</string>
+    <string name="add_video">Add Video</string>
+    <string name="add_image">Add Image</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <!--    messages-->
+    <string name="enter_your_answer">Enter your answer</string>
+    <string name="select_your_answer">Select your answer</string>
+    <string name="no_data_available">No data available</string>
+    <string name="select_item_from_list">Select item from list</string>
+    <string name="allow_permission_message">You need to allow necessary permissions in Settings manually</string>
+    <string name="permission_message">Core fundamental are based on these permissions</string>
+    <string name="permission_granted">All permissions are granted</string>
+    <string name="permission_denied">These permissions are denied:</string>
+
+    <!--    error messages-->
+    <string name="please_enter_your_answer">Please enter your answer</string>
+    <string name="please_select_your_answer">Please select your answer</string>
+    <string name="error_message">Something went wrong at our end!</string>
+</resources>

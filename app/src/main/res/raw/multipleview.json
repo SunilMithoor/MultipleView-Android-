@@ -1,0 +1,85 @@
+{
+  "id": 1,
+  "form": "Survey",
+  "formId": "form1",
+  "data": [
+    {
+      "id": 0,
+      "questionId": 1,
+      "question": "Enter long answer",
+      "questionType": "LONG ANSWER",
+      "questionChoices": null,
+      "validation": null
+    },
+    {
+      "id": 1,
+      "questionId": 2,
+      "question": "Enter short answer",
+      "questionType": "SHORT ANSWER",
+      "questionChoices": null,
+      "validation": null
+    },
+    {
+      "id": 2,
+      "questionId": 3,
+      "question": "Select video",
+      "questionType": "VIDEO",
+      "questionChoices": null,
+      "validation": null
+    },
+    {
+      "id": 3,
+      "questionId": 4,
+      "question": "Select image",
+      "questionType": "IMAGE",
+      "questionChoices": null,
+      "validation": null
+    },
+    {
+      "id": 4,
+      "questionId": 5,
+      "question": "Select multiple items",
+      "questionType": "MULTIPLE CHOICE",
+      "questionChoices": [
+        "White Fly",
+        "Yellow Mosaic",
+        "Illi (caterpillar)",
+        "Any other"
+      ],
+      "validation": null
+    },
+    {
+      "id": 5,
+      "questionId": 6,
+      "question": "Select single item",
+      "questionType": "SINGLE CHOICE",
+      "questionChoices": [
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "validation": null
+    },
+    {
+      "id": 6,
+      "questionId": 7,
+      "question": "Select date",
+      "questionType": "DATE",
+      "questionChoices": null,
+      "validation": {
+        "start_date": "01.06.2021",
+        "end_date": "31.08.2021"
+      }
+    },
+    {
+      "id": 7,
+      "questionId": 8,
+      "question": "Select time",
+      "questionType": "TIME",
+      "questionChoices": null,
+      "validation": null
+    }
+  ]
+}

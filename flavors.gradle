@@ -1,0 +1,26 @@
+android {
+    flavorDimensions 'env'
+
+    productFlavors {
+        stage {
+            dimension = 'env'
+            versionCode rootProject.ext.versionCode
+            versionName "Stage V" + rootProject.ext.versionName
+            applicationId "com.app.multipleview.debug"
+//            buildConfigField "String", "BASE_URL", "\"https://debug.app.in\""
+            buildConfigField "String", "BASE_URL", "\"https://catfact.ninja\""
+        }
+
+        prod {
+            dimension = 'env'
+            versionCode rootProject.ext.versionCode
+            versionName "Prod V" + rootProject.ext.versionName
+            applicationId "com.app.multipleview"
+//            buildConfigField "String", "BASE_URL", "\"https://prod.app.in\""
+            buildConfigField "String", "BASE_URL", "\"https://catfact.ninja\""
+        }
+    }
+
+}
+
+

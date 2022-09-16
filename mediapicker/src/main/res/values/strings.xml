@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Mediapicker</string>
+    <string name="waiting">Waiting&#8230;</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="ok">OK</string>
+
+    <string name="submit">Submit</string>
+    <string name="add_images">Add Images</string>
+    <string name="upload_max_document">You can upload max 3 images</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="retry">Retry</string>
+    <string name="alert">Alert</string>
+    <string name="choose_images">Choose image from Camera/Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+
+    <string name="picker_take_photo">Take photo</string>
+    <string name="picker_record_video">Record video</string>
+    <string name="picker_switch_media">Switch media</string>
+    <string name="picker_no_items">No items.</string>
+    <string name="picker_done_capital">DONE</string>
+    <string name="select_demo">Select demo</string>
+
+    <plurals name="picker_video_duration_min">
+        <item quantity="one">This video\'s duration smaller than %d second.</item>
+        <item quantity="other">This video\'s duration smaller than %d seconds.</item>
+    </plurals>
+    <plurals name="picker_video_duration_max">
+        <item quantity="one">This video\'s duration larger than %d second.</item>
+        <item quantity="other">This video\'s duration larger than %d seconds.</item>
+    </plurals>
+    <plurals name="picker_video_duration_warning">
+        <item quantity="one">Video\'s duration limit is  %d second.</item>
+        <item quantity="other">Video\'s duration limit is  %d seconds.</item>
+    </plurals>
+
+</resources>
