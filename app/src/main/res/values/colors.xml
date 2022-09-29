@@ -7,7 +7,6 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-
     <color name="colorPrimary">#39b54a</color>
     <color name="colorPrimaryDark">#00841b</color>
     <color name="colorAccent">#58a75a</color>
@@ -38,9 +37,12 @@
     <color name="colorGreyLight">#d2d2d2</color>
     <color name="colorGreyMedium">#a4a5a4</color>
     <color name="colorGreyDark">#575757</color>
-    <color name="colorAppPrimary">#39b54a</color>
-    <color name="colorAppPrimaryDark">#00841b</color>
-    <color name="colorAppPrimaryLight">#58a75a</color>
+<!--    <color name="colorAppPrimary">#39b54a</color>-->
+<!--    <color name="colorAppPrimaryDark">#00841b</color>-->
+<!--    <color name="colorAppPrimaryLight">#58a75a</color>-->
+    <color name="colorAppPrimary">#ff6d00</color>
+    <color name="colorAppPrimaryDark">#c43c00</color>
+    <color name="colorAppPrimaryLight">#ff9e40</color>
     <color name="colorOutlineBorder">#29314b</color>
     <color name="colorRedLight">#F51720</color>
     <color name="colorGreenLight">#76B947</color>

@@ -339,7 +339,7 @@
 
     <style name="Base_Toolbar_Style">
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
-        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:background">@color/colorAppPrimary</item>
         <item name="android:theme">@style/Base_ToolbarTheme</item>
         <!--        <item name="titleMarginStart">@dimen/margin_large</item>-->
         <item name="titleTextAppearance">@style/CustomTitleTextAppearance</item>
